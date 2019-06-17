@@ -3,10 +3,11 @@
 
 def fizzbuzz(int)
   if int % 3 && int % 5
-    puts fizzbuzz
+    return fizzbuzz
   elsif int % 5 
-    puts buzz
+    return buzz
   elsif int % 3
-    puts fizz
+    return fizz
   end
+  return nil
 end    
