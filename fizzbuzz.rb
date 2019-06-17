@@ -9,4 +9,4 @@ def fizzbuzz(int)
   elsif int % 3
     puts fizz
   end
-    
+end    
