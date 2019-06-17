@@ -3,7 +3,7 @@
 
 def fizzbuzz(int)
   if int % 3 && int % 5
-    return fizzbuzz
+    return "FizzBuzz"
   elsif int % 5 
     return buzz
   elsif int % 3
